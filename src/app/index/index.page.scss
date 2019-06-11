@@ -1,0 +1,23 @@
+ion-page.PAGENAME{
+    background-image: url('/assets/uteq.jpg');
+  }
+  
+  ion-page.PAGENAME > ion-content{
+  background-color: transparent;
+  }
+
+  .img{
+    position:absolute;
+      left: 0;
+      right: 0;
+      margin:0 auto;
+      top:50%;
+      transform:translateY(-50%);
+  }
+
+  .button{
+    background-color: #58B825;
+    border: none;
+    outline: none;
+    
+  }

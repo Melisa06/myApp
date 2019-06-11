@@ -8,6 +8,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {InAppBrowser} from '@ionic-native/in-app-browser/ngx';
+import { VideoPlayer } from '@ionic-native/video-player/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,6 +18,8 @@ import { AppComponent } from './app.component';
   providers: [
     StatusBar,
     SplashScreen,
+    InAppBrowser,
+    VideoPlayer, 
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
