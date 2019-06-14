@@ -11,7 +11,9 @@ const routes: Routes = [
   { path: 'control', loadChildren: './control/control.module#ControlPageModule' },
   { path: 'prueba', loadChildren: './prueba/prueba.module#PruebaPageModule' },
   { path: 'entrada', loadChildren: './entrada/entrada.module#EntradaPageModule' },
-  { path: 'galeria', loadChildren: './galeria/galeria.module#GaleriaPageModule' }
+  { path: 'galeria', loadChildren: './galeria/galeria.module#GaleriaPageModule' },  { path: 'reglas', loadChildren: './reglas/reglas.module#ReglasPageModule' },
+  { path: 'servicios', loadChildren: './servicios/servicios.module#ServiciosPageModule' }
+
   
 ];
 @NgModule({
