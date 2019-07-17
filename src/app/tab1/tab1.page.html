@@ -13,7 +13,7 @@
         
         <ion-card-title>Bienvenido a tu primera vez en biblioteca</ion-card-title>
       </ion-card-header>
-      <ion-card-content>
+      <ion-card-content class="justificado">
         <p>Estimado Usuario de Biblioteca este Manual es una guía que te permitirá acercarte a los diversos servicios que te ofrecemos en la Biblioteca, cuya finalidad es brindarte las instrucciones necesarias para cuando solicites este servicio.
         </p>
       </ion-card-content>
@@ -26,23 +26,19 @@
           ACCESO AL SERVICIO DE BIBLIOTECA
           </ion-card-title>
       </ion-card-header>
-      <ion-card-content>
+      <ion-card-content class="justificado">
         <p>Estimado Usuario de Biblioteca este Manual es una guía que te permitirá acercarte a los diversos servicios que te ofrecemos en la Biblioteca, cuya finalidad es brindarte las instrucciones necesarias para cuando solicites este servicio.
         </p>
       </ion-card-content>
     </ion-card>
 
-    <ion-button class="button" color = "transparent" (click) = "servicios()">Servicios que ofrecen</ion-button>
+    <ion-button class="button" color = "transparent"  expand="full" (click) = "servicios()">Servicios que ofrecen</ion-button>
     <br>
-    <ion-button class="button" color = "transparent">Prestamos</ion-button>
+    <ion-button class="button" color = "transparent" expand="full">Prestamos</ion-button>
     <br>
-    <ion-button class="button" color = "transparent">Obligaciones y Derechos</ion-button>
+    <ion-button class="button" color = "transparent" expand="full">Obligaciones y Derechos</ion-button>
     <br>
     <ion-button class="button"  expand="full" color = "transparent">Buzón de Sugerencias y Biblioteca Virtual</ion-button>
-    
-    
-    
-
-
-<ion-button (click) = "openBlank()" color = "transparent">Conocer más</ion-button>
+    <br>
+    <ion-button (click) = "openBlank()" color = "transparent" expand="full">Conocer más</ion-button>
 
